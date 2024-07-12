@@ -6,7 +6,7 @@ public class FlowIterator implements Iterator<StudentGroup> {
     
     private final List<StudentGroup> groupList;
     private int count;
-    public FlowIterator(Flow flow) {
+    public FlowIterator(Stream flow) {
         this.groupList = flow.getGroupList();
         this.count = 0;
     }

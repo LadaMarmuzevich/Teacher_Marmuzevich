@@ -2,7 +2,7 @@
 import java.util.Iterator;
 import java.util.List;
 
-public class Flow implements Iterator<StudentGroup> {
+public class Stream implements Iterator<StudentGroup> {
 
     private List<StudentGroup> groupList;
 
